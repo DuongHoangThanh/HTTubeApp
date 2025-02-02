@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  HTTubeApp
-//
-//  Created by Thạnh Dương Hoàng on 31/1/25.
-//
-
 import UIKit
 
 @main

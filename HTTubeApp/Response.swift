@@ -1,10 +1,3 @@
-//
-//  Response.swift
-//  HTTubeApp
-//
-//  Created by Thạnh Dương Hoàng on 1/2/25.
-//
-
 import Foundation
 
 struct Response: Decodable {
