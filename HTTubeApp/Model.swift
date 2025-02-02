@@ -35,6 +35,7 @@ class Model {
                 decoder.dateDecodingStrategy = .iso8601
                 
                 let response = try decoder.decode(Response.self, from: data!)
+                print("type response: \(type(of: response))")
                 
                 dump(response)
             }
@@ -42,7 +43,6 @@ class Model {
             catch {
                 
             }
-            
             
         }
         

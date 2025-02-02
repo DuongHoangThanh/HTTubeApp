@@ -31,11 +31,14 @@ struct Video: Decodable {
     init (from decode: Decoder) throws {
         
         let container = try decode.container(keyedBy: CodingKeys.self)
+        print("Container: \(type(of: container))")
         
         let snippetContainer = try container.nestedContainer(keyedBy: CodingKeys.self, forKey: .snippet)
+        print("NestedContainer: \(type(of: snippetContainer))")
         
         // Parse title
         self.title = try snippetContainer.decode(String.self, forKey: .title)
+        print("Title: \(type(of: title))")
         
         // Parse description
         self.description = try snippetContainer.decode(String.self, forKey: .description)

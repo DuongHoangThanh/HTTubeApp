@@ -17,6 +17,9 @@ struct Response: Decodable {
         
     }
     
+    /// Decoder: Đây là một giao thức (protocol) của Swift, được dùng để chuyển đổi dữ liệu từ JSON sang các kiểu dữ liệu Swift. Đối tượng Decoder này được JSONDecoder truyền vào khi decode JSON.
+    /// Khi gọi JSONDecoder.decode(Response.self, from: data!), nó sẽ tự động gọi hàm init(from:) của Response để decode.
+    
     init (from decode: Decoder) throws {
         
         let container = try decode.container(keyedBy: CodingKeys.self)
