@@ -13,7 +13,6 @@ struct Video: Decodable {
         case thumbnails
         case high
         case resourceId
-        
         case published = "publishedAt"
         case title
         case description

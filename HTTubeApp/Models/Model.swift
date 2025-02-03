@@ -48,7 +48,6 @@ class Model {
             catch {
                 
             }
-            
         }
         
         // Kick off the task

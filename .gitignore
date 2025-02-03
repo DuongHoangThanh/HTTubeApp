@@ -33,7 +33,9 @@ playground.xcworkspace
 
 .DS_Store
 
+**/Constants.swift
 Constants.swift
+/Helpers/Constants.swift
 
 
 # CocoaPods
