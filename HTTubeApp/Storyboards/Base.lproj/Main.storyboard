@@ -21,10 +21,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCell" id="rok-Df-AQ5" customClass="VideoTableViewCell" customModule="HTTubeApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="283.33334350585938"/>
+                                        <rect key="frame" x="0.0" y="50" width="393" height="303.33334350585938"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rok-Df-AQ5" id="GF6-SQ-M3s">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="283.33334350585938"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="303.33334350585938"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Dff-VS-QEN">
@@ -53,7 +53,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Dff-VS-QEN" firstAttribute="top" secondItem="GF6-SQ-M3s" secondAttribute="top" constant="20" id="2mk-BX-dg8"/>
-                                                <constraint firstAttribute="bottom" secondItem="Dff-VS-QEN" secondAttribute="bottom" id="7YZ-ec-t9E"/>
+                                                <constraint firstAttribute="bottom" secondItem="Dff-VS-QEN" secondAttribute="bottom" constant="20" id="7YZ-ec-t9E"/>
                                                 <constraint firstItem="Dff-VS-QEN" firstAttribute="leading" secondItem="GF6-SQ-M3s" secondAttribute="leading" constant="20" id="HWo-BA-zKA"/>
                                                 <constraint firstAttribute="trailing" secondItem="Dff-VS-QEN" secondAttribute="trailing" constant="20" id="QdR-K8-I0B"/>
                                             </constraints>
