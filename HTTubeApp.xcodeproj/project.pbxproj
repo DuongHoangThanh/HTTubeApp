@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3BBC90252D527F0E0043D396 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC90242D527F0E0043D396 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3B3E57FA2D4C5DE70030D074 /* HTTubeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTubeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBC90242D527F0E0043D396 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BBC90252D527F0E0043D396 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				3B3E57FC2D4C5DE70030D074 /* HTTubeApp */,
+				3BBC90232D527F0E0043D396 /* Frameworks */,
 				3B3E57FB2D4C5DE70030D074 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +63,14 @@
 				3B3E57FA2D4C5DE70030D074 /* HTTubeApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3BBC90232D527F0E0043D396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BBC90242D527F0E0043D396 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
